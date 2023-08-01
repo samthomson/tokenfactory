@@ -573,8 +573,11 @@ const abis: Record<string, any> = {
 	] as const
 }
 
-const tokenContracts = ['0x36e6040b4186F9f0Ad9b3c25a9C1c9EE58112D0a']
-const walletAddresses = ['0x47b7e4A01ABA5158925a722a24dbb414deDC19b9', '0x2E4693821464078e4b2a205BbE5EA9BEF4D47772']
+// test token 0x36e6040b4186F9f0Ad9b3c25a9C1c9EE58112D0a
+// reward token 0x540053115bA579EB32aCddfaFe2d121340553411
+
+const tokenContracts = ['0x36e6040b4186F9f0Ad9b3c25a9C1c9EE58112D0a', '0x540053115bA579EB32aCddfaFe2d121340553411']
+const walletAddresses = ['0x47b7e4A01ABA5158925a722a24dbb414deDC19b9', '0x2E4693821464078e4b2a205BbE5EA9BEF4D47772', '0x131335C9e4B6df8966F221F83c088dDC816967bd']
 
 const providerInterface = new Web3(`http://127.0.0.1:7545`);
 

@@ -4,12 +4,14 @@
     "@openzeppelin/contracts": "^4.9.3",
     "@types/node": "^20.4.5",
     "bignumber.js": "^9.1.1",
+    "dotenv": "^16.3.1",
     "truffle": "^5.11.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "web3": "^4.0.3"
   },
   "scripts": {
-    "balances": "ts-node ./scripts/balances.ts"
+    "balances": "ts-node ./scripts/balances.ts",
+    "disperse": "ts-node ./scripts/disperse.ts"
   }
 }
